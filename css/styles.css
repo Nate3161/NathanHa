@@ -1,0 +1,120 @@
+
+a:link {
+  color: #035168;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #035168;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F39189;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1em;
+  margin: 0;
+  background-color: #C7D3DD;
+  text-align: center;
+}
+
+hr {
+  background-color: #002834;
+  color: #002834;
+  height: 6px;
+  border-width: 0;
+  margin:  auto 200px auto 200px;
+}
+img{
+  padding-bottom: 50px;
+}
+input {
+  background-color: #838996;
+  border-color: black;
+}
+
+textarea {
+  background-color: #838996;
+  border-color: black;
+  border-width: 2px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #022834;
+  margin: 0 auto 0 auto;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #022834;
+  padding-bottom: 10px;
+}
+
+p {
+
+  font-family: Fredoka;
+  font-size: 120%;
+  color: #022834;
+  padding-bottom: 20px;
+}
+
+div {
+  background-color: #C7D3DD;
+}
+.top-container{
+  background-color: #C7D3DD;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.middle-container{
+  background-color: #C7D3DD;
+  width: 75%;
+  margin: 50px auto 50px auto;
+}
+.bottom-container{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.skill-row{
+  line-height: 2;
+  width: 75%;
+  margin: auto;
+}
+
+.btn {
+  background: #035168;
+  background-image: -webkit-linear-gradient(top, #022834, #022834);
+  background-image: -moz-linear-gradient(top, #022834, #022834);
+  background-image: -ms-linear-gradient(top, #022834, #022834);
+  background-image: -o-linear-gradient(top, #022834, #022834);
+  background-image: linear-gradient(to bottom, #022834, #022834);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Fredoka;
+  color: #C7D3DD;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #022834;
+  background-image: -webkit-linear-gradient(top, #022834, #022834);
+  background-image: -moz-linear-gradient(top, #022834, #022834);
+  background-image: -ms-linear-gradient(top, #022834, #022834);
+  background-image: -o-linear-gradient(top, #022834, #0228348);
+  background-image: linear-gradient(to bottom, #022834, #022834);
+  text-decoration: none;
+}
